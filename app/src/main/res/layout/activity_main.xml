@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#EADFB4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FBA834"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Zhaqqie AppMob Store"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masukkan Nama"
+            android:paddingTop="20sp"/>
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Membership"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+        </TextView>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <RadioButton
+                android:id="@+id/rbGold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#E8BC37"
+                android:text="Gold"
+                >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/rbSilver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#9E9797"
+                android:text="Silver"
+                >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/rbBiasa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#E59218"
+                android:text="Biasa"
+                >
+            </RadioButton>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masukkan Kode Barang"
+            android:paddingTop="20sp"/>
+
+
+        <EditText
+            android:id="@+id/etKodeBrg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            >
+        </EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masukkan Jumlah Barang"
+            android:paddingTop="20sp"/>
+
+
+        <EditText
+            android:id="@+id/etJlhBrg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            >
+        </EditText>
+
+        <Button
+            android:id="@+id/btProses"
+            android:layout_width="224dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Proses"
+            android:textSize="20dp">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>
