@@ -20,7 +20,7 @@
             android:background="#FBA834"
             android:gravity="center"
             android:padding="5dp"
-            android:text="Zhaqqie AppMob Store"
+            android:text="Zhaqqie Putra Quiz1"
             android:textColor="@color/white"
             android:textSize="30sp"
             android:textStyle="italic" />
