@@ -42,6 +42,7 @@ public class Detail extends AppCompatActivity {
             barang = getIntent().getParcelableExtra(keyObj);
         }
 
+
         slmtDtg.setText("Selamat Datang " + barang.getNama());
         tipeMembership.setText("Tipe Membership : " + barang.getTipeMember());
         kodeBrg.setText("Kode Barang : " + barang.getKodeBrg());
@@ -51,6 +52,7 @@ public class Detail extends AppCompatActivity {
         diskHarga.setText("Diskon Harga Rp : " + formatter.format(Double.parseDouble(barang.getDiskHarga())));
         diskMember.setText("Diskon Membership Rp : " + formatter.format(Double.parseDouble(barang.getDiskMember())));
         jlhBayar.setText("Jumlah Bayar Rp : " + formatter.format(Double.parseDouble(barang.getJlhBayar())));
+
 
         btShare.setOnClickListener(click -> {
             Intent intent = new Intent(Intent.ACTION_SEND);

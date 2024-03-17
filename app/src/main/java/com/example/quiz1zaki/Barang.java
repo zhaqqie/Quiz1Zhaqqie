@@ -59,6 +59,7 @@ public class Barang implements Parcelable {
 
     public void setTipeMember(String tipeMember) { this.tipeMember = tipeMember; }
 
+
     @Override
     public int describeContents() { return 0; }
 
