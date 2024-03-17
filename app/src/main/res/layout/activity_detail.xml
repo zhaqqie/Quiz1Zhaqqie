@@ -128,7 +128,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Terimakasih telah berbelanja disini!!!"
+                android:text="Terimakasih Telah Belanja Disini!!!"
                 android:layout_marginTop="80dp"
                 android:textSize="20sp"
                 android:textStyle="bold"
